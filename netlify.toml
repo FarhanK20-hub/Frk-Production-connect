@@ -1,0 +1,15 @@
+[[redirects]]
+  from = "/connect"
+  to = "/connect/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/connect/"
+  to = "/connect/index.html"
+  status = 200
+
+# Catch-all: serve 404 page if you have one, otherwise fall through to root
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
